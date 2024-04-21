@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-size: 18px;
+}
+#header{
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    padding: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    text-align:right;
+
+}
+#form-container {
+    margin-top: 100px;
+  }
+#content{
+    text-align: center;
+}
+.move-left{
+    float: left;
+}
+#form-block {
+    margin-top: 100px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  #form-block-cart {
+    margin-top: 100px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  #button-block {
+    width: 100%;
+    text-align: center;
+  }
+
+  #nav a{
+    color: #fff;
+    text-decoration: none;
+
+  }
+    /*--button-- */
+  .nav-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 6px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+
+
+  }
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+   /*--button-- */
+  #nav a:hover {
+    background-color: initial;
+    background-position: 0 0;  
+    background-color: #0062cc;
+    opacity: .5;
+  }
+ /* view.php */
+ #subcontent {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#data-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-list th,
+#data-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#data-list th {
+  background-color: gray;
+  font-weight: bold;
+  color: #333;
+}
+
+#data-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#data-list a:hover {
+  text-decoration: underline;
+}
